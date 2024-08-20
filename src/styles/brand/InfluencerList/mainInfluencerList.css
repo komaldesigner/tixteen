@@ -1,0 +1,31 @@
+.main_influencer_list_parent_container{
+    padding: 40px 50px;
+    
+}
+.influncer_list_container{
+    display: flex;
+    gap: 50px;
+}
+.influncer_list_sidebar_main_div{
+    width: 15%;
+    padding: 10px 10px;
+    text-align: start;
+}
+.search_box_filter{
+    display: flex;
+    gap: 20px;
+}
+.all_search_box_filter_list{
+    padding: 20px 5px;
+    height: 100vh;
+    overflow-y: scroll;
+}
+/* cart */
+.influncer_list_cart_list_container{
+    width: 90%;
+    padding: 10px 50px;
+}
+.main_influencer_list_cart_div{
+    height: 100vh;
+    overflow-y: scroll;
+}

@@ -1,0 +1,21 @@
+.main_my_accounts{
+    padding: 10px;
+    margin-top: 20px;
+    font-family: var(--inter-font);
+}
+.my_accounts_text{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: var(--light-gray-color);
+    padding-left: 20px;
+}
+.earning_text_my_accounts{
+    font-size: 18px;
+}
+.main_my_accounts_details_earning{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-bottom: 1px solid var(--light-gray-color);
+    margin-bottom: 20px;
+}

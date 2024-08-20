@@ -1,0 +1,121 @@
+/* .filter-container {
+    margin-bottom: 20px;
+  }
+  
+  .filter-container h3, .filter-container h4 {
+    margin-bottom: 10px;
+  }
+  
+  .filter-container label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .influencer-list {
+    margin-top: 20px;
+  }
+  
+  .influencers {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .influencer-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .influencer-card img {
+    max-width: 100%;
+    border-radius: 50%;
+  }
+  
+  .influencer-card h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .influencer-card p {
+    margin: 5px 0;
+  }
+
+.influencer-list {
+    padding: 20px;
+  }
+  
+  .influencer-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+  }
+  
+  .filter-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+  }
+  
+  .header {
+    background: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+   */
+
+   /* App.css */
+
+/* Styling for filter container */
+.filter-container {
+    margin-bottom: 20px;
+  }
+  
+  .filter-container h3,
+  .filter-container h4 {
+    margin-bottom: 10px;
+  }
+  
+  .filter-container label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Styling for influencer list */
+  .influencer-list {
+    margin-top: 20px;
+  }
+  
+  .influencers {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .influencer-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .influencer-card img {
+    max-width: 100%;
+    border-radius: 50%;
+  }
+  
+  .influencer-card h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .influencer-card p {
+    margin: 5px 0;
+  }
+  

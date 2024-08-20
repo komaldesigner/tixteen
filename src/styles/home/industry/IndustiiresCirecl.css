@@ -1,0 +1,56 @@
+    .industry_weserve_parent_div {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        height: 100vh;
+    }
+    
+    .industry_weserve_secondary_parent_div {
+        z-index: 1;
+    }
+    
+    .main_industry_weserve_parent_div {
+        position: absolute;
+        width: 100%;
+        left: 100%;
+        transform: translateX(-50%);
+        top: -690px;
+    }
+    
+    .circle_of_industries {
+        transform: translateX(-50%);
+        /* background-color: var(--third-yellow-color); */
+        background: linear-gradient(to bottom, transparent 50%, var(--third-yellow-color) 50%);
+        /* background: linear-gradient(red,blue); */
+        border-radius: 50%;
+        z-index: -1;
+    }
+
+   .Industries_text_circle{
+    /* background: #000; */
+    font-size: 40px;
+    font-family: var(--kumbh-font);
+    color: white;
+    font-weight: 800;
+    text-transform: uppercase;
+    /* height: 100px;/ */
+    /* margin-top: 4000px; */
+   }
+   .circle_of_industries {
+    transform: translateX(-50%);
+    background: linear-gradient(to bottom, transparent 50%, var(--third-yellow-color) 50%);
+    border-radius: 50%;
+    z-index: -1;
+    /* Clip the top half of the circle */
+    clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0 100%);
+}
+
+   .Industries_text_circle {
+    position: absolute;
+    top: 80%; /* Adjust as necessary */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Ensure the text is visible over the background */
+    /* color: #000; Or any color that contrasts well with the yellow */
+    z-index: 1;
+}

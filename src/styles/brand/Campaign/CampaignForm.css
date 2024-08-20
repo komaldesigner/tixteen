@@ -1,0 +1,88 @@
+.newregsecall{
+    margin-bottom: 15%;
+  }
+
+  .regsidestatimg {
+    margin-top: 20%;
+  }
+
+  .regpersonal{
+    width: 78%;
+  }
+  .regindustryimg{
+    width: 59%;
+  }
+  .regplatformimg{
+    width: 45%;
+  }
+  .regcontentimg{
+    width: 68%;
+  }
+
+
+  .regfrmdwnupbtncnt{
+    display: flex;
+    text-align: revert;
+    margin-left: auto;
+    width: fit-content;
+    margin-right: 6%;
+  }
+  .regnextbtn{
+    margin: -10% 3%;
+    transform: rotate(90deg);
+  }
+
+  .platfrmslct input[type="url"]{
+    font-size: calc(0.6vw + 1.2vh);
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #000;
+    font-family: Barlow-Medium;
+    background: unset;
+}
+
+input:invalid {
+  border: 2px dashed red;
+}
+
+input:valid {
+  border: 2px solid black;
+}
+.newregsecall{
+    margin-bottom: 5%;
+  }
+  .regfrmdwnupbtncnt{
+    display: flex;
+    margin-left: auto;
+    width: fit-content;
+  }
+  .regnextbtn{
+    margin: -10% 3%;
+    transform: rotate(90deg);
+  }
+
+input:invalid {
+  border: 2px dashed red;
+}
+
+input:valid {
+  border: 2px solid black;
+}
+.clntmkampgnboxx{
+    width: 100%;
+    margin: auto;
+    background: #fff;
+    padding: 1.2% 3%;
+    border-radius: 40px;
+}
+.clntmkampgnboxx input{
+    width: 100%;
+}
+.clntmkampgnboxx select{
+    border: 2px solid black;
+    width: 100%;
+}
+.clntmkampgnboxx textarea{
+    border: 2px solid black;
+    width: 100%;
+}

@@ -1,0 +1,64 @@
+.main_container_for_horizitnal_Scroll {
+  padding: 100px 20px;
+}
+
+.carousel-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding: 50px 0;
+}
+
+.carousel-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 150px;
+}
+
+.carousel-row {
+  display: flex;
+  gap: 100px;
+  will-change: transform;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-item-list {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.carousel-item-list:hover {
+  transform: scale(1.1);
+}
+
+.carousel-image-list {
+  width: 150px;
+  height: 100%;
+  transition: transform 0.5s ease;
+  object-fit: contain;
+}
+
+.carousel-image-list:hover {
+  transform: scale(1.1);
+}
+
+.background-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 190px;
+  color: yellow;
+  font-family: var(--lilita-font);
+  font-weight: bolder;
+  z-index: -1;
+  white-space: nowrap;
+  pointer-events: none;
+  opacity: 1;
+}

@@ -1,0 +1,309 @@
+.auditxt1 h3 {
+    font-family: BarlowCondensedExtraBold;
+    font-size: 6vw;
+    color: #000;
+    margin: 0;
+    line-height: 1;
+}
+.auditxt1 {
+padding-top: 10%;
+padding-left: 16%;
+}
+.audipic1 {
+text-align: center;
+}
+.audipic1 img {
+width: 80%;
+}
+.audipara{
+    padding: 5% 0% 5% 0%;
+}
+.audipara p {
+    font-family: BarlowMedium;
+    font-size: calc(0.8vw + 0.65vh);
+    color: #000;
+    text-align: justify;
+    padding: 0% 8% 0% 8%;
+}
+.auditxt{
+    padding-top: 15%;
+}
+.auditxt h3 {
+    font-family: BarlowCondensedExtraBold;
+    font-size: 6vw;
+    color: #000;
+    margin: 0;
+    line-height: 1;
+}
+.audipic{
+    text-align: center;
+}
+.audipic img{
+    width: 60%;
+}
+.audireq{
+    width: 85%;
+    margin: auto;
+    padding: 5% 0% 0% 0%;
+}
+.bigtxt{
+    padding-top: 3%;
+}
+.ylocrcltxt{
+    text-align: center;
+    align-items: center;
+}
+.ylocrcltxt p{
+    font-family: BarlowBold;
+    font-size: calc(0.9vw + 0.9vh);
+    color: #000;
+    text-align: center;
+    margin: 0;
+    line-height: 1.3;
+}
+.ylocrcl{
+    background-color: #ffc401;
+    border-radius: 150px;
+    width: 70%;
+    margin: auto;
+    display: grid;
+    align-items: center;
+    height: 15vw;
+    margin-bottom: 10%;
+}
+.tixsetoff{
+    width: 70%;
+    margin: auto;
+    padding: 3% 0% 3% 0%;
+    text-align: center;
+}
+.tixsetoff h3{
+    font-family: BarlowCondensedExtraBold;
+    font-size: 4vw;
+    color: #000;
+    text-align: center;
+    padding-bottom: 5%;
+}
+.abtman{
+    margin-bottom: -2.4%;
+}
+.smltxt{
+    padding-top: 5%;
+}
+.smltxt p{
+    font-family: BarlowMedium;
+    font-size: calc(0.8vw + 0.65vh);
+    color: #000;
+    text-align: justify;
+}
+.bigtxt h3{
+    font-family: BarlowCondensedExtraBold;
+    font-size: 6vw;
+    color: #000;
+    margin: 0;
+    line-height: 1;
+}
+.bigtxt h4{
+    font-family: BarlowCondensedExtraBold;
+    font-size: 4vw;
+    color: #000;
+    margin: 0;
+    line-height: 1;
+}
+.mrktagncy{
+    width: 70%;
+    margin: auto;
+    padding: 3% 0% 3% 0%;		
+}
+.mrktagncymain{
+    background-color: #ffc401;
+    padding: 0% 0% 0% 0%;
+}
+.abtbnr{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+.abtman img{
+    width: 100%;
+}
+.abtbnntxt{
+    padding-top: 15%;
+}
+.abtbnntxt h3{
+    font-family: BarlowCondensedExtraBold;
+    font-size: 10vw;
+    margin: 0;
+    color: #ffc401;
+    text-align: center;
+    line-height: 0.5;
+}
+.abtbnntxt h4{
+    font-family: BarlowCondensedExtraBold;
+    font-size: 10vw;
+    margin: 0;
+    color: #000;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1240px) 
+{
+.bigtxt h3 {
+font-size: 8vw;
+}
+.auditxt1 h3 {
+font-size: 8vw;
+}
+.auditxt h3 {
+font-size: 8vw;
+}
+.auditxt {
+padding-top: 10%;
+}
+
+
+}
+
+
+
+@media only screen and (max-width: 1000px) 
+{
+.mrktagncy {
+width: 80%;
+}
+.tixsetoff h3 {
+font-size: 6vw;
+}
+.bigtxt h4 {
+font-size: 5vw;
+}
+.tixsetoff {
+width: 80%;
+}
+.ylocrcl {
+height: 17vw;
+}
+.audipara p {
+padding: 0% 2% 0% 2%;
+}
+.auditxt1 {
+padding-top: 0%;
+padding-left: 5%;
+}
+
+}
+
+
+
+@media only screen and (max-width: 767px) 
+{  
+.ylocrcl {
+width: 80%;
+height: 19vw;
+}
+.smltxt p {
+font-size: calc(0.85vw + 0.8vh);
+}
+.audipara p {
+font-size: calc(0.85vw + 0.8vh);
+}
+
+
+}
+
+
+@media only screen and (max-width: 700px) 
+{ 
+.bigtxt {
+padding-top: 20%;
+}
+.audipic img {
+width: 75%;
+}
+.audipic1 img {
+width: 95%;
+} 
+
+
+}
+
+
+
+@media only screen and (max-width: 599px) 
+{
+.ylocrcl {
+width: 95%;
+height: 22vw;
+}
+
+
+
+}
+
+
+
+
+
+@media only screen and (max-width: 575px) 
+{
+.bigtxt {
+padding-top: 0%;
+}
+.bigtxt h3 {
+font-size: 10vw;
+}
+.bigtxt h4 {
+font-size: 7.5vw;
+}
+.smltxt p {
+font-size: calc(1vw + 1vh);
+}
+.tixsetoff h3 {
+font-size: 7.5vw;
+}
+.audipara p {
+font-size: calc(1vw + 1vh);
+}
+.auditxt {
+margin-left: -17%;
+}
+
+
+
+
+}
+
+
+
+
+@media only screen and (max-width: 450px) 
+{
+.ylocrcl {
+width: 100%;
+height: 25vw;
+}
+.tixsetoff {
+width: 90%;
+}  
+
+
+}
+
+@media only screen and (max-width: 350px) 
+{
+.tixsetoff {
+width: 95%;
+}
+
+}

@@ -1,0 +1,26 @@
+.main_user_details_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px 5px;
+    background: white;
+    margin: 10px 0px;
+}
+.main_user_details_header_right_div{
+    display: flex;
+    font-weight: bold;
+    gap: 7px;
+}
+.main_user_details_header_right_div_text{
+    color: var(--dark-gray-color);
+}
+.main_user_details_header_right_div_icon{
+    position: relative;
+}
+.userDetsils_icon_header{
+    position: absolute;
+    bottom: -4px;
+    right: -1px;
+    cursor: pointer;
+}

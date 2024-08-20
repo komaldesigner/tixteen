@@ -1,0 +1,65 @@
+.cartbanner1 {
+    padding: 5% 8%;
+    background: #fec600;
+  }
+  
+  .crthdh3 {
+    text-align: center;
+    margin-bottom: 3%;
+    color: #000;
+    font-size: calc(1.1vw + 1.1vh);
+  }
+  
+  h3 {
+    color: #000;
+    font-weight: 600;
+  }
+  
+  .checkoutboxbg1,
+  .checkoutboxbg2,
+  .checkoutboxbg3,
+  .checkoutboxbg4 {
+    background: #f8f8f8;
+    border-radius: 50px;
+    padding: 2% 2%;
+  }
+  
+  .checkoutboxbg1 {
+    border-right: 13px solid #fec600;
+  }
+  
+  .checkoutboxbg4 {
+    border-right: 13px solid #fff;
+    margin-top: 1%;
+  }
+  
+  .cartbanner1 form input,
+  .cartbanner1 form textarea {
+    width: 100%;
+    background: #fff;
+    padding: 1%;
+  }
+  
+  .btp1 {
+    margin-bottom: 10px;
+  }
+  
+  .btp2 {
+    display: flex;
+    align-items: center;
+  }
+  
+  .btpprice h3 {
+    margin: 0;
+  }
+  
+  .tdd .btn {
+    background: #ff0000;
+    color: #fff;
+    border: none;
+  }
+  
+  .cartbanner2 {
+    margin-top: 20px;
+  }
+  

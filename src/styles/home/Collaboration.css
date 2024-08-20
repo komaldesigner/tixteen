@@ -1,0 +1,187 @@
+.collaboration_heading_text_div{
+  width: 80%;
+}
+
+
+/* Collaboration */
+.main_influencer_cardes_div{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.profile-card {
+    width: 320px;
+    border: 1px solid #ddd;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    font-family: Arial, sans-serif;
+    margin: 15px;
+  }
+ 
+  
+  .profile-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .profile-details {
+    padding: 15px;
+  }
+  
+  .profile-details h2 {
+    margin: 0;
+    font-size: 1.5em;
+  }
+  
+  .verified-badge {
+    color: #ffd700;
+  }
+  
+  .location,
+  .followers,
+  .advertising-price {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .categories {
+    margin: 10px 0;
+    min-height: 70px;
+  }
+  
+  .category-tag {
+    display: inline-block;
+    background-color: #ffd700;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin: 2px;
+    font-size: 0.8em;
+  }
+  
+  .send-message {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .send-message:hover {
+    background-color: #333;
+  }
+  
+  .profile-card-video {
+    width: 100%;
+    height: auto;
+    scale: 3.9;
+    padding-left: 27px;
+    padding-top: 20px;
+    border: none;
+  }
+  
+  .video-card {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    font-family: Arial, sans-serif;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--third-yellow-color);
+    padding-left: 10px;
+    position: relative;
+    }
+  .show_all_text {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    z-index: 10;
+    font-family: var(--lilita-font);
+    color: black;
+    display: flex;
+    flex-direction: column;
+  
+  }
+  .show_text {
+    font-size: 70px;
+    margin-bottom: -25px;
+  }
+  .all_text{
+    font-size: 50px;
+  }
+
+  .right_image_video_div{
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+  }
+  .Forming_Impactful_text{
+    font-size: 26px;
+  }
+  /* Responsive Styles */
+  @media (max-width:1025) {
+   
+   
+  }
+  @media (max-width: 768px) {
+    .profile-card,
+    .video-card {
+      max-width: 90%;
+    }
+    .main_influencer_cardes_div{
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+  
+    .profile-details h2 {
+      font-size: 1.2em;
+    }
+  
+    .category-tag {
+      padding: 5px 8px;
+      font-size: 0.7em;
+    }
+  
+    .send-message {
+      font-size: 0.9em;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .main_influencer_cardes_div{
+      display: flex;
+      justify-content: center;
+    }
+  
+    .profile-card,
+    .video-card {
+      max-width: 95%;
+    }
+    .profile-card-video {
+      height: 516px;
+    }
+
+  
+    .profile-details h2 {
+      font-size: 1em;
+    }
+  
+    .category-tag {
+      padding: 4px 6px;
+      font-size: 0.6em;
+    }
+  
+    .send-message {
+      font-size: 0.8em;
+    }
+  }
+  

@@ -1,0 +1,20 @@
+.report_summary_main_div {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  /* padding: 10px; */
+  width: 100%;
+  font-family: var(--inter-font);
+  margin: 50px 0px;
+}
+.report_summary_data {
+  /* padding: 10px; */
+  width: 100%;
+  border-right: 1px solid var(--dark-gray-color);
+}
+.report_summary_data_items {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 0px 10px;
+}

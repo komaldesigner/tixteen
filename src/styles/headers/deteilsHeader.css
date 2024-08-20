@@ -1,0 +1,13 @@
+.main_details_header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 2px;
+    font-weight: bold;
+    font-size: 20px;
+    align-items: center;
+}
+.details_header_icons{
+    width: 100%;
+    font-weight: bold;
+    cursor: pointer;
+}

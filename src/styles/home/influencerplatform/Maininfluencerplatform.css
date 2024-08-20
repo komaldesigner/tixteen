@@ -1,0 +1,230 @@
+.maininfluencerplatform_top_paerent_section {
+    background: var(--third-yellow-color);
+    display: flex;
+    flex-direction: column;
+    padding: 20px 50px;
+}
+
+/* Upper section */
+.maininfluencerplatform_upper_section_top {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.influencerplatform_upper_section_first_div_img {
+    width: 100%;
+}
+
+.influencerplatform_upper_section_first_div {
+    display: flex;
+    flex-direction: column;
+}
+
+.influencerplatform_upper_section_PLATFORM_WHERE {
+    padding-left: 35px;
+}
+
+.a_platform_where_text {
+    font-family: var(--lilita-font);
+    font-size: 25px;
+}
+
+.top_influencers_meet_top_brands_text {
+    font-family: var(--linden-font);
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: -7px;
+    padding-right: 17px;
+}
+
+.main_influ_platform_line_top {
+    margin-top: 70px;
+}
+
+/* What makes us different */
+.influencerplatform_upper_section_what_make_us_different_div {
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.influencerplatform_upper_section_what_make_opetions_div {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.influencerplatform_upper_section_what_make_opetions {
+    padding: 10px 17px;
+    font-size: 12px;
+    background: black;
+    color: white;
+    border-radius: 20px;
+}
+
+/* Lower section */
+.maininfluencerplatform_lower_section_top_div {
+    display: flex;
+    margin-top: 40px;
+    gap: 100px;
+}
+
+/* Left */
+.maininfluencerplatform_lower_section_left_div {
+    width: 30%;
+    margin-top: 30px;
+}
+
+.how_it_works_for_brands_text {
+    font-size: 20px;
+    font-family: var(--kumbh-font);
+}
+
+.how_it_works_for_brands_description {
+    font-family: var(--linden-font);
+    font-size: 14px;
+}
+
+/* Center */
+.maininfluencerplatform_lower_section_center_div {
+    width: 50%;
+}
+
+.line_two_div {
+    max-height: 100px;
+    text-align: end;
+    padding-right: 200px;
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+
+.maininfluencerplatform_lower_section_center_div_bottom {
+    display: flex;
+    align-items: center;
+}
+
+.third_influencer_platform_img_girl {
+    width: 100%;
+}
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+    .maininfluencerplatform_top_paerent_section {
+        padding: 20px 40px;
+    }
+
+    .line_two_div {
+        padding-right: 150px;
+    }
+}
+
+@media (max-width: 992px) {
+    .maininfluencerplatform_upper_section_top {
+        /* flex-direction: column; */
+        gap: 20px;
+    }
+
+    .maininfluencerplatform_lower_section_top_div {
+        /* flex-direction: column; */
+        gap: 30px;
+    }
+
+    .maininfluencerplatform_lower_section_left_div,
+    .maininfluencerplatform_lower_section_center_div {
+        width: 100%;
+    }
+
+    .line_two_div {
+        padding-right: 0;
+    }
+
+    .maininfluencerplatform_lower_section_center_div_bottom {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .third_influencer_platform_img_girl {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .maininfluencerplatform_top_paerent_section {
+        padding: 20px 30px;
+    }
+
+    .maininfluencerplatform_upper_section_top,
+    .maininfluencerplatform_lower_section_top_div {
+        gap: 12px;
+        flex-direction: column; 
+    }
+
+    .line_two_div{
+        display: none;
+    }
+    .main_influ_platform_line_top {
+        margin-top: 50px;
+    }
+
+    .a_platform_where_text {
+        font-size: 22px;
+    }
+
+    .top_influencers_meet_top_brands_text {
+        font-size: 18px;
+    }
+
+    .how_it_works_for_brands_text {
+        font-size: 18px;
+    }
+
+    .how_it_works_for_brands_description {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 576px) {
+    .maininfluencerplatform_top_paerent_section {
+        padding: 20px;
+    }
+    .maininfluencerplatform_upper_section_top,
+    .maininfluencerplatform_lower_section_top_div {
+        gap: 0px;
+        flex-direction: column; 
+    }
+
+    .a_platform_where_text {
+        font-size: 20px;
+    }
+
+    .top_influencers_meet_top_brands_text {
+        font-size: 16px;
+    }
+
+    .how_it_works_for_brands_text {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .how_it_works_for_brands_description {
+        font-size: 10px;
+    }
+
+    .line_two_div {
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .influencerplatform_upper_section_what_make_us_different_div {
+        padding: 20px;
+    }
+
+    .influencerplatform_upper_section_what_make_opetions {
+        font-size: 10px;
+    }
+}

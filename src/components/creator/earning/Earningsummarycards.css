@@ -1,0 +1,157 @@
+:root {
+    --inter-font: "Inter", sans-serif;
+    --lilita-font: "Lilita One", sans-serif;
+    --linden-font: "Linden Hill", serif;
+    --kumbh-font: "Kumbh Sans", sans-serif;
+    --primary-color: #F7DC6F; /* Light Yellow */
+    --secondary-color: #F0B429; /* Warm Yellow */
+    --tertiary-color: #D4AC0D; /* Rich Dark Yellow */
+    --accent-color: #333333; /* Dark Gray */
+    --background-color: #ebebeb; /* Light Gray Background */
+    --text-color: #212121; /* Dark Text */
+    --white-color: #FFFFFF;
+}
+
+.earning-container {
+    padding: 30px;
+    background-color: var(--background-color);
+    font-family: var(--inter-font);
+    color: var(--text-color);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 24px;
+}
+
+.earning-card {
+    background-color: var(--white-color);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.earning-card:hover {
+    transform: translateY(-5px);
+}
+
+.earning-card-image img {
+    width: 100%;
+    /* height: 180px; */
+    object-fit: cover;
+    border-bottom: 1px solid var(--accent-color);
+}
+
+.earning-card-content {
+    padding: 20px;
+}
+
+.earning-card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.earning-platform-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+}
+
+.earning-campaign-title {
+    font-family: var(--lilita-font);
+    font-size: 18px;
+    color: var(--tertiary-color);
+}
+
+.earning-card-details {
+    margin-bottom: 20px;
+}
+
+.earning-detail-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.earning-detail-icon {
+    width: 22px;
+    margin-right: 10px;
+}
+
+.earning-detail-text {
+    font-size: 14px;
+    color: var(--text-color);
+}
+
+.earning-detail-label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 10px;
+    color: var(--secondary-color);
+}
+
+.earning-status-link {
+    font-size: 14px;
+    color: var(--tertiary-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.earning-card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.earning-payout-btn {
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.earning-payout-btn:hover {
+    background-color: var(--tertiary-color);
+}
+
+.earning-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.earning-view-campaign-btn, .earning-post-view-link {
+    background-color: var(--primary-color);
+    color: var(--accent-color);
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.earning-view-campaign-btn:hover, .earning-post-view-link:hover {
+    background-color: var(--secondary-color);
+}
+
+.earning-no-data {
+    text-align: center;
+    font-size: 18px;
+    font-family: var(--kumbh-font);
+    color: var(--text-color);
+    padding: 20px;
+}
+
+.earning-post-link {
+    font-size: 14px;
+    color: var(--text-color);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+

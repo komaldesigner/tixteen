@@ -1,0 +1,30 @@
+.main_report_dasboard_div {
+  background: linear-gradient(white 10%, transparent 10%),
+    url("../../../assets/report/reportBalckUI.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  width: 100%;
+  height: 300px;
+  font-family: var(--inter-font);
+  padding:  20px;
+  margin: 20px 0px;
+}
+
+.my_campigns_text_repot {
+  color: var(--white-color);
+  text-align: center;
+  margin: 20px;
+}
+.main_report_dasboard_div_items {
+  display: flex;
+  justify-content: space-between;
+  color: var(--white-color);
+  height: 200px;
+}
+.main_report_dasboard_div_items_left,
+.main_report_dasboard_div_items_right {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}

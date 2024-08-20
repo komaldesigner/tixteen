@@ -1,0 +1,22 @@
+.crator_search_bar_parent{
+    display: flex;
+    background: var(--light-blue-color);
+    align-items: center;
+    padding: 20px;
+    border: 1px solid var(--light-blue-color);
+    margin: 15px 0px;
+    border-radius: 20px;
+    gap: 20px;
+    font-family: var(--inter-font);
+    font-size: 18px;
+}
+.creator_search_box_input{
+    color: var(--light-gray-color);
+    font-weight: 500;
+    background: var(--light-blue-color);
+
+}
+.creator_search_box_input:focus {
+    border: none; 
+    outline: none; 
+  }

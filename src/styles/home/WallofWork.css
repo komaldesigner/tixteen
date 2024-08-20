@@ -1,0 +1,53 @@
+
+/* Wall of Work */
+.wallofwork_video_div_top_parent_div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.wallofwork_video_parent_div{
+  height: 60vh;
+  overflow: hidden;
+  position: relative;
+
+  /* padding: 10px; */
+  
+  }
+  .wallofwork_video {
+    width: 100%;
+    height: 100%;
+    margin-bottom: -10px;
+    object-fit: cover
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+  }
+  
+  .WallofWork {
+    background: var(--background-for-home-yellow);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .WallofWork_text {
+    font-family: var(--lilita-font);
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-size: 64px; */
+    color: var(--black-color);
+    word-spacing: 2px;
+  }
+  
+  @media (max-width:500px) {
+    .wallofwork_video {
+      width: 97%;
+      height: 90%;
+    }
+    
+.wallofwork_video_parent_div{
+  height: 36vh;
+  }
+  }

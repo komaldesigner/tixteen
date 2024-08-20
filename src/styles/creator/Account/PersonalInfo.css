@@ -1,0 +1,57 @@
+.main_personal_info_div{
+    background-color: var(--light-yellow-color);
+    height: 100%;
+}
+.main_influencer_data{
+    padding:  10px 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.main_influencer_items{
+    font-family: var(--inter-font);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.influncer_item_first_div{
+    font-weight: 600;
+    width: 100%;
+}
+.influncer_item_second_div{
+    width: 90%;
+}
+.influncer_item_second_input{
+    padding: 6px;
+    font-weight: 500;
+    font-family: var(--inter-font);
+    border-radius: 10px;
+}
+
+/* addhar_card_heading */
+.addhar_card_heading{
+    background: var(--light-blue-color);
+    padding: 10px 20px;
+    font-family: var(--kumbh-font);
+}
+.addhar_card_img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* primary_account_div */
+.primary_account_div{
+    display: flex;
+    align-items: center;
+}
+.primary_account_div div{
+    border: 1px solid var(--light-gray-color);
+    padding: 10px;
+}
+.simple_input_filed{
+    border: none;
+    background: transparent;
+}
+.simple_input_filed:focus{
+    outline: none;
+}

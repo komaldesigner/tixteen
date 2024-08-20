@@ -1,0 +1,16 @@
+/* App.css */
+.issimg {
+    position: relative;
+}
+
+.issimg iframe {
+    position: absolute;
+    bottom: 9%;
+    right: 3.8%;
+    width: 50%;
+    height: 67%;
+}
+
+.owl-carousel {
+    display: block !important;
+}

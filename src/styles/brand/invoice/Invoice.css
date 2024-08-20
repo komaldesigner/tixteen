@@ -1,0 +1,104 @@
+.ivoice{
+    width: 55%;
+    margin: 3% auto;
+}
+.inclbrdr{
+    border: 1px solid #000;
+    padding: 1% 1%;
+}
+.invoicehdr{
+    border: 1px solid #000;
+}
+.invoicehdr h3{
+    font-size: 2vw;
+    text-align: center;
+    font-weight: 500;
+}
+.invidttlbrdr{
+    border-right: 1px solid #000;
+}
+.invodat p{
+    margin: 0;
+}
+.invonumdttl p{
+    margin: 0;
+    font-weight: 600;
+}
+.invoicdeetal{
+    padding: 2% 0;
+}
+.inviocrecesndr{
+    border: 1px solid #000;
+}
+.invoicereciver{
+    border: 1px solid #000;
+    margin: 1% 1% 1% 1%;
+}
+.invoicrcrdettail{
+    padding: 0% 0% 5% 0%;
+}
+.invirecehdr{
+    text-align: center;
+    border: 1px solid #000;
+    margin: 1% 1% 1% 1%;
+}
+.invirecehdr h3{
+    font-size: 1vw;
+    font-weight: bold;
+}
+.invodat{
+    padding-left: 4%;
+}
+td, th {
+  border: 2px solid #000;
+  text-align: left;
+  padding: 8px;
+}
+.invocprduammt{
+    padding: 1% 0%;
+}
+.invoittl{
+    border: 1px solid #000;
+}
+table{
+    width: 100%;
+}
+.incttlamoutdttl{
+    padding: 1% 1% 1% 1%;
+}
+.invoittl1{
+    border: 1px solid #000; 
+    padding: 21% 2%;
+    text-align: center;
+    margin: 1% 1% 0% 1%;
+}
+.invoicterm{
+    border: 1px solid #000;
+    margin: 1% 1% 1% 1%;
+}
+.invoicterm p{
+ margin: 0;
+}
+.invoicterm2 p{
+ margin: 0;
+}
+.invoicterm2{
+    padding-top: 7%;
+    padding-left: 2%;
+    margin-top: 2%;
+    border: 1px solid #000;
+}
+.invoicseign{
+    text-align: end;
+    padding-right: 1%;
+}  
+   .image {WIDTH: 25%;
+    MARGIN-LEFT: AUTO;}
+    .image img{width:100%;}
+    .tixteenimg{
+           width: 15%;
+    margin: auto;
+    }
+    .tixteenimg img{
+        width:100%;
+    }

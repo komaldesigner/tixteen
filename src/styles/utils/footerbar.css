@@ -1,0 +1,41 @@
+.main_ecombar_parent_div {
+    width: 100%;
+    position: relative;
+  }
+  .ecom_bar_main_div {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    position: fixed;
+    bottom: 10px;
+    left: 0px;
+    background: var(--dark-gray-color);
+    padding: 10px 10px;
+    color: white ;
+    border-bottom: 2px solid var(--golden-color);
+    z-index: 1000;
+    border-radius: 20px;
+  }
+  
+  .ecom_bar_main_div div {
+    width: 100%;
+  }
+  .ecom_bar_items_div {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  @media (min-width:800px) {
+      .main_ecombar_parent_div{
+          display: none;
+      }
+  }
+  @media (max-width:500px) {
+      .main_ecombar_parent_div{
+          display: block;
+      }
+  }

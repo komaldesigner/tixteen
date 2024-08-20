@@ -1,0 +1,22 @@
+.main-container-test {
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  position: relative;
+}
+
+.section-test {
+  height: 100%;
+  width: 100%;
+  scroll-snap-align: start;
+}
+
+.animated-component {
+  opacity: 0;
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.animate-in {
+  opacity: 1;
+  transform: translateY(0);
+}

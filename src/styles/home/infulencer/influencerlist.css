@@ -1,0 +1,105 @@
+.main_influencer_list_top_parent_div {
+    position: relative;
+    /* height: 100vh; */
+    /* overflow-y: auto;  */
+    background: var(--third-yellow-color);
+    /* background-image: url("../../../assets/img/home/Group 33.png"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed;  */
+    padding: 40px 100px;
+    margin-bottom: 10px;
+}
+.third-yellow-color{
+    background: var(--third-yellow-color);
+    height: 100vh;
+    
+}
+
+.main_influencer_list_section {
+    padding-top: 50px;
+}
+
+.main_influencer_list_images {
+    position: relative;
+}
+
+.influencerListRigtSideImage, .influencerListLeftSideImage {
+    margin-bottom: 20px; 
+    
+}
+
+.influencerListRigtSideImage {
+    text-align: end;
+    /* padding-right: 170px; */
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.influencerListRigtSideImage_image, .influencerListLeftSideImage_image {
+    width: 100%;
+    margin-bottom: -50px;
+}
+
+.influencerListLeftSideImage {
+    /* padding-left: 120px; */
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+.influencerListRigtSideImage_image_div{
+    max-width: 39%;
+    /* background: #000; */
+}
+
+@media (max-width: 800px) {
+.influencerListRigtSideImage_image_div{
+        max-width: 49%;
+    }
+    .main_influencer_list_top_parent_div {
+        padding: 40px 80px;
+        margin-bottom: 10px;
+    }
+/*     
+    .main_influencer_list_section {
+        padding-top: 50px;
+    }
+    
+    .main_influencer_list_images {
+        position: relative;
+    }
+    
+    .influencerListRigtSideImage, .influencerListLeftSideImage {
+        margin-bottom: 20px; 
+    }
+    
+    .influencerListRigtSideImage {
+        text-align: end;
+        padding-right: 170px;
+    }
+    
+    .influencerListRigtSideImage_image, .influencerListLeftSideImage_image {
+        width: 500px;
+        margin-bottom: -50px;
+    }
+    
+    .influencerListLeftSideImage {
+        padding-left: 120px;
+    } */
+    
+}
+@media (max-width: 500px) {
+    .influencerListRigtSideImage_image_div{
+            max-width: 65%;
+            padding: 30px;
+        }
+        .main_influencer_list_top_parent_div {
+            padding: 40px 0px;
+            margin-bottom: 10px;
+        }
+        .main_influencer_list_section {
+            padding-top: 20px;
+        }
+        
+    }

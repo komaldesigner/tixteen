@@ -1,0 +1,75 @@
+.main_accordien_options_div {
+    display: flex;
+    background: var(--light-blue-color);
+    align-items: center;
+    color: black;
+    gap: 40px;
+    padding: 13px 10px;
+    border-radius: 12px;
+    margin: 10px 0px;
+}
+
+.accordion_option_items {
+    border: none;
+    border-bottom: 1px solid rgba(79, 77, 77, 0.393);
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.accordion .btn {
+    text-align: left;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    text-decoration: none;
+}
+
+.accordion .btn:focus {
+    box-shadow: none;
+}
+
+.accordion .collapse {
+    transition: height 0.35s ease;
+}
+
+
+/* Add these styles to your existing CSS file */
+
+/* .accordion_option_items {
+    border: none;
+    border-bottom: 1px solid rgba(79, 77, 77, 0.393);
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+} */
+
+/* .btn {
+    text-align: left;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    background: none;
+} */
+
+.accordion-icon {
+    font-size: 20px;
+    transition: transform 0.3s ease;
+}
+
+.accordion-icon.open {
+    transform: rotate(180deg);
+}
+
+.accordion-icon.closed {
+    transform: rotate(0deg);
+}

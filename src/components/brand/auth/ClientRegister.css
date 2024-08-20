@@ -1,0 +1,72 @@
+/* ClientRegister.css */
+.newregsecall {
+    margin-bottom: 15%;
+  }
+  
+  .regsidestatimg {
+    margin-top: 20%;
+  }
+  
+  .regpersonal {
+    width: 78%;
+  }
+  
+  .regindustryimg {
+    width: 59%;
+  }
+  
+  .regplatformimg {
+    width: 45%;
+  }
+  
+  .regcontentimg {
+    width: 68%;
+  }
+  
+  .regfrmdwnupbtncnt {
+    display: flex;
+    text-align: revert;
+    margin-left: auto;
+    width: fit-content;
+    margin-right: 6%;
+  }
+  
+  .regnextbtn {
+    margin: -10% 3%;
+    transform: rotate(90deg);
+  }
+  
+  .persnlinf input[type="url"] {
+    font-size: calc(0.6vw + 1.2vh);
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #000;
+    font-family: Barlow-Medium;
+    background: unset;
+    padding: 30px 5px 1px 5px;
+  }
+  
+  #pageloader {
+    display: none;
+    position: fixed;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    z-index: 9999;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: #ffffffad;
+    padding: 45% 51% 45% 42%;
+    height: 100%;
+  }
+  
+  #pageloader img {
+    width: 100%;
+  }
+  
+  .client_register_images_sections{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }

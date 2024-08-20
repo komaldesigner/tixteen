@@ -1,0 +1,30 @@
+
+.secfstpp {
+    font-family: Barlow-Medium;
+    padding: 2% 5% ;
+    text-align: justify;
+ 
+     background: #fec600;
+     width: 80%;
+     margin: 3% auto;
+     border-radius: 28px;
+ }
+ .secfstpp h2{
+     margin: 0%;
+     text-align: center;
+     font-weight:bold ;
+     font-size: 34px;
+     
+ }
+ .secfstpp h3{
+     font-weight:bold ;
+     font-size: 29px;
+ }
+ .secfstpp p{
+     font-size: 20.5px;
+ }
+ 
+ .secfstpp a{
+     color: unset;
+     text-decoration: none;
+ }

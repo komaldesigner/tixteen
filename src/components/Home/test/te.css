@@ -1,0 +1,132 @@
+.gallery {
+    height: 250vh;
+    background: rgb(45, 45, 45);
+    position: relative;
+    display: flex;
+    /* gap: 2vw; */
+    /* padding: 2vw; */
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  
+  .gallery .column {
+    position: relative;
+    height: 100%;
+    width: 20%;
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+  }
+  
+  .gallery .column .imageContainer {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    border-radius: 1vw;
+    overflow: hidden;
+  }
+  
+  .gallery .column .imageContainer img {
+    object-fit: cover;
+    margin-left: -10px;
+  }
+  
+  .gallery .column:nth-of-type(1) {
+    top: -24%;
+  }
+  
+  .gallery .column:nth-of-type(2) {
+    top: -68%;
+  }
+  
+  .gallery .column:nth-of-type(3) {
+    top: -25%;
+  }
+  
+  .gallery .column:nth-of-type(4) {
+    top: -102%;
+  }
+  
+  .gallery .column:nth-of-type(5) {
+    top: -25%;
+  }
+  
+  .spacer {
+    padding-top: 8.5%;
+  }
+  
+  .spacer h1 {
+    color: #ef4523;
+    font-weight: normal;
+    background: #fff;
+    font-size: 60px;
+    padding: 15px 10px;
+    text-align: center;
+    font-family: "MadeTommyMedium";
+    letter-spacing: 15px;
+  }
+  
+  .spacer2 {
+    height: 25vh;
+    width: 100%;
+  }
+  
+  .spacer2 h1 {
+    color: #fff;
+    font-size: 120px;
+    font-family: "MadeTommyMedium";
+    font-weight: 300;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  
+  .spacer2 {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .scrollingText {
+    display: flex;
+    white-space: nowrap;
+    animation: scroll 10s linear infinite;
+    font-size: 1.5rem;
+  }
+  
+  .scrollingText h1 {
+    display: inline-block;
+    padding-right: 100%;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
+  @media (max-width: 1350px) {
+    .spacer {
+      padding-top: 0;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .spacer h1 {
+      color: #ef4523;
+      background: #fff;
+      font-size: 45px;
+      font-weight: normal;
+      padding: 10px 10px;
+      text-align: center;
+      font-family: "MadeTommyMedium";
+      letter-spacing: 5px;
+    }
+  }
+  

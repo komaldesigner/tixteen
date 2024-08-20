@@ -1,0 +1,179 @@
+.calling{
+    margin-bottom: -3%;
+}
+.cntfrm{
+    width: 65%;
+    margin: auto;
+    text-align: center;
+    padding: 4% 0% 3% 0%;
+}
+.cntmain{
+    width: 65%;
+    margin: auto;
+    padding: 1% 0% 0% 0%;
+}
+.calling img{
+    width: 85%;
+}
+.cntus h3{
+    font-family: BarlowCondensedExtraBold;
+    font-size: 8vw;
+    color: #fec600;
+    text-align: center;
+    margin: 0;
+    line-height: 0.5;
+}
+.cntus h4{
+    font-family: BarlowCondensedExtraBold;
+    font-size: 8vw;
+    color: #000;
+    text-align: center;
+}
+.cntus{
+    padding-top: 27%;
+}
+.ylowcnt{
+    background-color: #fec600;
+    padding: 5% 0% 8% 0%;
+}
+.csbus{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+.cussup img{
+    width: 25%;
+}
+.cussup h3{
+    font-family: BarlowMedium;
+    font-size: calc(1.1vw + 1.2vh);
+    color: #000;
+    text-align: center;
+    font-weight: bolder;
+}
+.cussup p a{
+    font-family: BarlowMedium;
+    font-size: calc(0.9vw + 0.8vh);
+    color: #000;
+    text-align: center;
+    margin: 0;
+    line-height: 0.5;
+}
+.cussup a{
+    text-decoration: none;
+}
+
+
+
+.tag1 {
+width: 33%;
+text-align: center;
+}
+.tag1 h3 {
+font-family: BarlowMedium;
+font-size: calc(0.7vw + 0.6vh);
+margin-bottom: -7%;
+position: relative;
+z-index: 3;
+color: #000;
+background-color: #fec600;
+margin-left: 14%;
+}
+.cntfrm input[type=text] {
+width: 100%;
+border: solid #fff 3px;
+height: 5vw;
+background-color: #fec600;
+}
+.cntbtn1 {
+background-color: #fff;
+border: none;
+font-size: calc(0.7vw + 0.7vh);
+font-family: 'BarlowMedium';
+width: 12%;
+text-align: center;
+font-weight: bolder;
+}
+.cntfrm input[type=submit] {
+margin: 3% 0%;
+float: left;
+}
+.tag2 {
+width: 13%;
+text-align: center;
+}
+.cntfrm textarea {
+width: 100%;
+border: solid #fff 3px;
+height: 4vw;
+background-color: #fec600;
+}
+.tag2 h3 {
+font-family: BarlowMedium;
+font-size: calc(0.7vw + 0.6vh);
+margin-bottom: -4%;
+color: #000;
+position: relative;
+z-index: 3;
+background-color: #fec600;
+margin-left: 14%;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 900px) 
+{
+.cntfrm {
+width: 75%;
+}
+.tag1 h3 {
+font-size: calc(0.75vw + 0.75vh);
+}
+.tag1 {
+width: 35%;
+}
+.tag2 h3 {
+font-size: calc(0.75vw + 0.75vh);
+}
+.cntbtn1 {
+font-size: calc(0.9vw + 0.9vh);
+}
+
+
+
+}
+
+
+
+
+@media only screen and (max-width: 800px) 
+{
+
+
+
+}
+
+@media only screen and (max-width: 700px) 
+{
+
+
+}
+
+
+@media only screen and (max-width: 650px) 
+{
+
+
+}
+
+
+@media only screen and (max-width: 575px) 
+{
+
+
+
+}

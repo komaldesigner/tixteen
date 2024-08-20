@@ -1,0 +1,61 @@
+.earining_summary_main_div {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 10px;
+  font-family: var(--inter-font);
+  padding: 20px 0px;
+  justify-content: center;
+}
+.earining_summary_items {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border-left: 6px solid var(--dark-yellow-color);
+  padding: 0px 10px;
+  min-width: 80px;
+  background: var(--white-color);
+  text-align: center;
+}
+.earining_summary_items_image {
+  width: 30px;
+}
+.earining_summary_items_title {
+  font-weight: 500;
+}
+
+
+
+/* Add this to your existing eariningSummary.css */
+.earning_popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  border-radius: 8px;
+}
+
+.earning_popup-content h2 {
+  margin-top: 0;
+}
+
+.earning_popup-content p {
+  margin: 10px 0;
+}
+
+.earning_popup-content button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.earning_popup-content button:hover {
+  background-color: #0056b3;
+}

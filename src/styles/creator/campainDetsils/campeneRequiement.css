@@ -1,0 +1,42 @@
+.campain_requement_main_div{
+    width: 100%;
+    padding: 10px 0px;
+    font-family: var(--inter-font);
+}
+.campain_requement_social_media{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.campain_requement_social_media_items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+    background: var(--light-blue-color);
+    padding: 10px 0px;
+    border-radius: 20px;
+    min-width: 100px;
+}
+.campain_requement_social_media_items_items{
+    font-weight: bold;
+    font-size: 12px;
+}
+.main_requiemnt_text{
+    font-size: 22px;
+    margin: 10px 0px;
+}
+.campain_requiemnt_number{
+    font-weight: bold;
+    font-size: 20px;
+    color: red;
+}
+
+/* icons */
+
+.campain_requement_Icon{
+    width: 20px;
+}

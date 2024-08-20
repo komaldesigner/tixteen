@@ -1,0 +1,42 @@
+.industy_dropdown_checkbox_items{
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.industy_accordion {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.industy_accordion-header {
+    background-color: #f8f9fa;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+.industy_accordion-icon {
+    font-size: 20px;
+    transition: transform 0.3s ease;
+}
+
+.industy_accordion-icon.open {
+    transform: rotate(180deg);
+}
+
+.industy_filter_checkbox_parent_div {
+    padding: 10px;
+    border-top: 1px solid #ddd;
+}
+
+.industy_dropdown_checkbox_items {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    background-color: #fff;
+}

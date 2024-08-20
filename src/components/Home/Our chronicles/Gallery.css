@@ -1,0 +1,15 @@
+.gallery-container {
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Ensure images stay in a line */
+    display: flex; /* Align items in a row */
+    flex-direction: row; /* Arrange items horizontally */
+    align-items: center; /* Center items vertically */
+  }
+  
+  .gallery-image {
+    width: auto; /* Maintain aspect ratio */
+    min-width: 300px; /* Minimum width */
+    height: auto; /* Adjust height automatically */
+    margin-right: 10px; /* Space between images */
+  }
+      

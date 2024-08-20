@@ -1,0 +1,57 @@
+.adinflubgclr {
+    background-color: #f9f9f9;
+    padding: 20px;
+  }
+  
+  .invtinflu {
+    padding: 20px;
+  }
+  
+  .influgllry h3 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .influgllry p {
+    text-align: start;
+    margin-bottom: 40px;
+  }
+  
+  .influspc {
+    margin-bottom: 20px;
+  }
+  
+  .influpht {
+    background-color: #fec600;
+    background-size: cover;
+    border-radius: 15px;
+    padding: 96% 0 3% 0;
+    width: 100%;
+    margin: auto;
+    position: relative;
+  }
+  
+  .lvlinflu {
+    position: absolute;
+    top: 10px;
+    /* left: 10px; */
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .sndinvt {
+    position: absolute;
+    bottom: 10px;
+    /* right: 10px; */
+  }
+  
+  .infudtls {
+    /* background-color: white; */
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    text-align: start;
+  }
+  

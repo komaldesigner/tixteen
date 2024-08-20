@@ -1,0 +1,147 @@
+.clintinfhdr{
+    padding: 2% 1% 2% 1%;
+    background-color:#fec600;
+    box-shadow: 0px 0px 3px 0px #00000030;
+    /*position: fixed;
+    top: 0;
+    width: 100%;*/
+}
+.clintinfhdr2{
+    padding: 2% 1% 2% 1%;
+    background-color:#fec600;
+    box-shadow: 0px 0px 3px 0px #00000030;
+}
+.clintiffltrhdr{ 
+    width: 90%;
+    margin: auto;
+}
+.clintinffltrname{
+    font-family: BarlowBold;
+    font-size: calc(0.8vw + 0.9vh);
+    color: #000;
+    font-weight: bolder;
+}
+.clintinffltrname2{
+    text-align: right;
+    font-family: BarlowBold;
+    font-size: calc(1vw + 1vh);
+    color: #09a59f;
+    font-weight: bolder;
+}
+.clietinfluc1{
+    background-color: #f2f2f2;
+}
+.clientinfltcat{
+    font-family: BarlowBold;
+    font-size: calc(0.85vw + 0.85vh);
+    color: #000;
+    font-weight: bolder;
+    padding: 10% 0% 5% 16%;
+    border-bottom: 1px solid #eaeaec;
+    border-right: 1px solid #eaeaec;
+}
+.clirinffltlvl{
+    border-bottom: 1px solid #dbd3d3;
+    padding: 3% 0% 4% 5%;
+}
+.clitntflterlevel{
+    padding-top: 2%;
+    padding-bottom: 4%;
+}
+.clirinffltlvl label{
+    font-family: 'Barlow-Medium';
+    padding-left: 8%;
+    font-size: calc(0.85vw + 0.85vh);
+    color: #000;
+    padding-right: 2%;
+}
+
+
+.category.active {
+background: #fff;
+border-color: #fff;
+}
+
+.level {
+display: none;
+}
+
+/*.product {
+animation: fadeIn 0.5s ease-in-out;
+}*/
+
+@keyframes fadeIn {
+from {
+opacity: 0;
+transform: scale(0.5);
+}
+to {
+opacity: 1;
+transform: scale(1);
+}
+}
+
+.product img {
+width: 100%;
+}
+
+.products {
+/* display: none; */
+}
+
+.products.level {
+display: block;
+}
+.inflmbilvw{
+position: fixed;
+z-index: 999999999;
+top: 0%;
+width: 100%;
+animation-duration: 1s!important;
+/* display: none; */
+animation: moveInRight;
+width: 100%;
+height: 100%;
+top: 0;
+z-index: 100;
+z-index: 9999999999999999999;
+position: fixed;
+overflow: scroll;
+
+}
+.clintinffltrname2 input[type="submit"]{
+border: none;
+background-color: unset;
+text-align: right;
+font-family: BarlowBold;
+font-size: calc(1vw + 1vh);
+color: #09a59f;
+font-weight: bolder;
+}
+@keyframes moveInRight {
+0% {
+    opacity: 0;
+    transform: translateX(100px);
+}
+
+80% {
+    transform: translateX(-10px);
+}
+
+100% {
+    opacity: 1;
+    transform: translate(0);
+}
+
+}
+.cletinfflter{
+height: 88vh;
+padding: 0 0 0px;
+overflow: scroll;
+}
+.clietinffltrcatgry{
+height: 100%;
+overflow: scroll;
+background-color: #f5f5f6;
+padding: 0px 0 90px;
+}

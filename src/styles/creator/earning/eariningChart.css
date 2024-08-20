@@ -1,0 +1,39 @@
+.main_earning_chart_div {
+  padding: 20px 0px;
+}
+.bar_cart_first {
+  /* color: red; */
+  fill: var(--dark-yellow-color);
+}
+.bar_cart_second {
+  fill: var(--dark-gray-color);
+}
+.total_earining_icon {
+  width: 40px;
+}
+.earining_summary_total_count {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  gap: 10px 20px;
+  font-family: var(--inter-font);
+  font-weight: 500;
+}
+.main_data_chart_div_earning {
+  margin: 0px;
+  padding: 0px;
+}
+/* filter */
+.earining_summary_filter {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px ;
+}
+.select_earining_options_dropdown {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}

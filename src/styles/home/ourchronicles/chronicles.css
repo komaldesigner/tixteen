@@ -1,0 +1,150 @@
+/* Main container for text */
+.Chronicles_text_main_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Video sample container */
+.main_influ_sample_div {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.influ_sample_video_div {
+    width: 200px;
+    position: relative;
+}
+
+.influ_sample_video_video {
+    width: 100%;
+    height: 100%;
+    scale: 1.5;
+}
+
+.influ_sample_video_container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 380px;
+    gap: 20px;
+    background: var(--third-yellow-color);
+    padding: 50px;
+}
+
+.influ_sample_text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.NUSHKE_section_main_div {
+    width: 100%;
+    text-align: end;
+}
+
+.NUSHKE_text_section {
+    color: var(--white-color);
+    font-family: var(--lilita-font);
+    font-size: 80px;
+}
+
+.By_Nature_text_section {
+    font-family: var(--linden-font);
+    font-size: 34px;
+}
+
+.NUSHKE_section_details_bottom {
+    margin-top: -25px;
+    color: var(--white-color);
+    font-family: var(--lilita-font);
+}
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+    .NUSHKE_text_section {
+        font-size: 60px;
+    }
+
+    .By_Nature_text_section {
+        font-size: 28px;
+    }
+    .NUSHKE_section_details_bottom {
+        margin-top: -10px;
+    }
+}
+
+@media (max-width: 992px) {
+    .influ_sample_video_container {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .influ_sample_video_div {
+        width: 100%;
+    }
+    .influ_sample_video_video {
+        width: 70%;
+        height: 70%;
+        scale: 1.5;
+    }
+
+    .NUSHKE_text_section {
+        font-size: 50px;
+    }
+
+    .By_Nature_text_section {
+        font-size: 24px;
+    }
+
+    .NUSHKE_section_details_bottom {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .main_influ_sample_div {
+        height: auto;
+    }
+
+    .influ_sample_video_container {
+        padding: 30px;
+        gap: 10px;
+    }
+
+    .NUSHKE_text_section {
+        font-size: 40px;
+    }
+
+    .By_Nature_text_section {
+        font-size: 20px;
+    }
+
+    .NUSHKE_section_details_bottom {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 576px) {
+    .influ_sample_video_container {
+        padding: 20px;
+    }
+
+    .NUSHKE_text_section {
+        font-size: 30px;
+    }
+
+    .By_Nature_text_section {
+        font-size: 16px;
+    }
+
+    .NUSHKE_section_details_bottom {
+        font-size: 16px;
+    }
+}
