@@ -1,0 +1,40 @@
+name: Build & Deploy React Application with Github Actions // Ajust it if you want
+
+on: // This is section that what event trigger Github actions. 
+  push:
+    branches:
+      - main
+
+env: // Here, you can set environment variables for your React application.
+  REACT_APP_API_URL: ${{ vars.REACT_APP_API_URL }}
+
+jobs: // In this jobs section, you will set all jobs to deploy your React application on your server.
+  build-deploy:
+    name: Build & Deploy on server
+    runs-on: ubuntu-latest // ubuntu-latest, windows-latest, macos-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18.x'
+
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: Run build
+        run: npm run build --if-present
+    
+      - name: Deploy on server
+        uses: easingthemes/ssh-deploy@main
+        with:
+            SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+            ARGS: "-rlgoDzvc -i --delete"
+            SOURCE: "build/"
+            REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
+            REMOTE_USER: ${{ secrets.REMOTE_USER }}
+            REMOTE_PORT: ${{ secrets.REMOTE_PORT }}
+            TARGET: ${{ secrets.REMOTE_TARGET }}
+            EXCLUDE: "/dist/, /node_modules/"
